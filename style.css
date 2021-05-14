@@ -1,0 +1,167 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  color: rgb(102, 102, 102);
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+nav {
+  flex: 3;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+.text {
+  font-family: Arial;
+  font-weight: 600;
+  margin: auto;
+}
+.links-for-navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.link-style {
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+  text-decoration: none;
+}
+.flask-image {
+  display: flex;
+  flex: 1;
+  padding-top: 60px;
+}
+
+.index-main-section {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  align-items: center;
+}
+.index-introduction {
+  flex: 1;
+}
+.index-intro-text h1 {
+  color: rgb(102, 102, 102);
+  flex: 1;
+  font-size: 50px;
+  font-weight: 500;
+}
+.index-intro-text p {
+  margin-top: 5px;
+  font-size: 25px;
+  color: rgb(102, 102, 102);
+}
+
+.where-simulation-will-go {
+  display: flex;
+  flex: 1;
+  height: 60vh;
+  border: 5px solid black;
+}
+
+.materials-main-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.materials-jump-links {
+  flex: 1;
+}
+.materials-jump-links h1 {
+  color: rgb(102, 102, 102);
+  flex: 1;
+  font-size: 40px;
+  font-weight: 500;
+}
+.materials-jump-links ul {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(102, 102, 102);
+}
+.materials-experiments  {
+  flex: 1;
+}
+.materials-experiments p {
+  color: rgb(102, 102, 102);
+}
+.materials-experiments h2 {
+  color: rgb(102, 102, 102);
+  font-size: 25px;
+  font-weight: 400;
+}
+.materials-experiments h3 {
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  font-weight: 150;
+}
+.materials-experiments ol {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(102, 102, 102);
+}
+.materials-experiments ul {
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(102, 102, 102);
+}
+
+.aboutUs-main-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.aboutUs-introduction {
+  flex: 1;
+}
+.aboutUs-introduction h1 {
+  color: rgb(102, 102, 102);
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.aboutUs-introduction p {
+  color: rgb(102, 102, 102);
+}
+
+.aboutUs-overview  {
+  flex: 2;
+}
+
+.aboutUs-overview h1  {
+  color: rgb(102, 102, 102);
+  flex: 1;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.aboutUs-overview p {
+  color: rgb(102, 102, 102);
+}
+
+.developers {
+  text-align: right;
+  color: black;
+}
+
+
+
+
+
+
+

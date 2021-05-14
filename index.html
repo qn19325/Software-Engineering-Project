@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Virtual Microbiology Lab</title>
+    <script src="https://cdn.babylonjs.com/babylon.max.js"></script>
+    <!-- this link to the preview online version of BJS
+    <script src="https://preview.babylonjs.com/babylon.js"></script>
+    <!-- this is needed for BJS to load scene files -->
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+    <!-- Babylon.js -->
+    <script src="https://code.jquery.com/pep/0.4.2/pep.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+    <script src="https://preview.babylonjs.com/ammo.js"></script>
+    <script src="https://preview.babylonjs.com/cannon.js"></script>
+    <script src="https://preview.babylonjs.com/Oimo.js"></script>
+    <script src="https://preview.babylonjs.com/earcut.min.js"></script>
+    <script src="https://preview.babylonjs.com/babylon.js"></script>
+    <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+    <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+    <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+    <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+    <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script> -->
+
+    <style>
+      canvas {
+        width: 100%;
+        height: 100%;
+        touch-action: none;
+      }
+      html, body {
+        margin: 0;
+      }
+    </style>
+  </head>
+<body style="background-color:white;">
+<header>
+  <h1 class="text">Virtual Microbiology Lab</h1>
+  <nav>
+    <ul class="links-for-navigation">
+      <li><a class="link-style" href="#">Home</a></li>
+      <li><a class="link-style" href="materials.html">Materials</a></li>
+      <li><a class="link-style" href="aboutUs.html">About Us</a></li>
+    </ul>
+  </nav>
+  <div class="flask-image">
+    <img src="assets/conical-flask.png" style="width:100px;height:100px;">
+  </div>
+</header>
+
+<main>
+  <section class="index-main-section">
+    <div class="index-introduction">
+      <div class="index-intro-text">
+        <h1>The Simulation</h1>
+        <p>A simulated environment for Microbiology students to learn correct procedures for their labs</p>
+      </div>
+    </div>
+    <div class="where-simulation-will-go">
+      <canvas id="renderCanvas"></canvas>
+      <script src="main.js" type="module"></script>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="developers">By Leifan Lei, Ruhan Hou, Patrick Gao, Yue Wu and Joshua Hall</p>
+</footer>
+</body>
+</html>
